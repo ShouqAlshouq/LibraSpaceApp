@@ -25,7 +25,7 @@ public class DBConnection {
 
          String dbURL =
 
-             "jdbc:sqlite:C:/Users/lazys/Downloads/FinalProjectLibrarySystem Edit2/FinalProjectLibrarySystem Edit2/LibraSpaceApp/libraryinfo.db";
+             "jdbc:sqlite:libraryinfo.db";
  
         // If no connection OR connection was closed  create a new one
 
