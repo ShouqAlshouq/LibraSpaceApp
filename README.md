@@ -81,4 +81,4 @@ The `.form` files next to each GUI class are the NetBeans designer files, so kee
 
 ## Team
 
-**[Shouq Alshouq]** and **my Teammates**
+**ShouqAlshouq** · **hessaalmaazmi** · jamilaalmarri · maha
