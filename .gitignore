@@ -15,3 +15,66 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# ─────────────────────────────────────────────
+# Maven — build output and release leftovers
+# ─────────────────────────────────────────────
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# https://maven.apache.org/tools/wrapper/#Usage_with_or_without_Binary_JAR
+.mvn/wrapper/maven-wrapper.jar
+
+# Downloaded automatically by Maven from the pom.xml dependency,
+# so the 14 MB driver jar does not need to live in the repo
+sqlite-jdbc-*.jar
+
+# ─────────────────────────────────────────────
+# NetBeans (the .form files ARE needed — they define your windows)
+# ─────────────────────────────────────────────
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+
+# ─────────────────────────────────────────────
+# Other IDEs
+# ─────────────────────────────────────────────
+# Eclipse
+.project
+.classpath
+.settings/
+# IntelliJ
+.idea/
+*.iml
+# VS Code
+.vscode/
+
+# ─────────────────────────────────────────────
+# Database — keep real data out of GitHub
+# ─────────────────────────────────────────────
+# The working database holds student names, emails and phone numbers.
+# Rebuild it from database/schema.sql and database/sample-data.sql instead.
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+# DB Browser for SQLite project/window state
+*.sqbpro
+
+# ─────────────────────────────────────────────
+# OS junk, logs and archives
+# ─────────────────────────────────────────────
+.DS_Store
+__MACOSX/
+Thumbs.db
+desktop.ini
+*.log
+hs_err_pid*
+*.zip
